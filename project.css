@@ -1,0 +1,412 @@
+*{
+
+}
+body {
+    
+}
+h4{
+    font-size: 2.em;
+    text-align: center;
+}
+ h1{
+   color: white;
+    
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-family: Arial;
+    color: #007bd5;
+}
+
+#wrapper{
+ width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+#wrapper2
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+aside img{
+    height: 235px;
+    width: auto;
+    padding-top: 110px;
+}
+p{
+    font-family: Arial,monospace;
+}
+main{
+     margin-top: -4%;
+}
+header img{
+    display: block;
+   position: absolute;
+    height: 20%;
+    padding-left: 44%;
+    
+}
+
+nav{
+    display: block;
+    text-align: center;
+    word-spacing: 40px;
+    font-size: 2em;
+    padding-top: 200px;
+    
+}
+nav a{
+    
+    text-decoration: none;
+    color: #007bd5;
+    
+}
+aside{
+    font-size: 1.5em;
+    float: right;
+    width: 200px;
+    height: 100%;
+    margin-top: 3%;
+    text-align: center;
+    height: -webkit-fill-available;
+    border: 1px solid grey;
+    background-color: grey;
+    
+}
+
+div{
+    margin-top: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img1{
+    background-image: url("https://relaunch-live.s3.amazonaws.com/cms/media/player-profile/1135.png");
+    border-radius: circle 1px solid;
+    padding-top: 100px;
+    padding-left: 142px;
+    margin-left: 120px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 139px;
+}
+#img2{
+   background-image: url(image/sachin-tendulkar-66h.jpg);
+    background-size: 100%;
+    width: 87%;
+    background-repeat: no-repeat;
+    height: -webkit-fill-available;
+    clear: left;
+    
+}
+
+div img{
+    margin-left: 25px;
+   height: 210px;
+    width: auto;
+    position: absolute;
+    
+}
+div p{
+        margin-left: 60px;
+    font-size: 1.5em;
+}
+footer{
+    text-align: center;
+    background-color:  #007bd5;
+    color: white;
+}
+    div video{
+    margin-top:40px;
+    margin-left:10px;
+        width: 300px;
+        }
+    
+        h3{
+            position: absolute;
+    padding-left: 22%;
+   
+    margin-top: -80px;
+        }
+       table{
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            border:1px solid grey;
+            border-collapse: collapse;
+            margin-top: 4%;
+        }
+        table th,tr,td{
+          border: 1px solid grey;
+            text-align: center;
+        }
+        table img{
+           height: 75px;
+    width: 100px;
+    padding-top: 4px
+        }
+       
+
+tr:nth-of-type(even)
+{
+    background-color: lightgray;
+}
+table tr:hover{
+    background-color: aqua;
+}
+table img:hover{
+    transform: scale(1.5);
+}
+th{
+    font-size: 1.5em;
+}
+td{
+    font-family: Arial,monospace;
+}
+
+
+@media only screen and (max-width: 1024px){
+    
+    h3{
+    }
+    body{
+        margin: 0;
+        
+    }
+    #wrapper{
+        width: 0;
+      margin-left: 0;
+        margin-right: 0;
+        margin: 0;
+    }
+    #wrapper2{
+        width: 0%
+        margin: 0;
+         margin-left: 0;
+        margin-right: 0;
+    }
+    aside{
+       display: block;
+    clear: left;
+    font-size: 1em;
+    margin-top: 612px;
+    margin-left: 0px;
+    width: 335px;
+    }
+    nav{
+        display: block;
+    }
+    nav a{
+        display: block;
+        border: 1px solid;
+        border-left: none;
+        border-right: none;
+    }
+    main{
+    
+        margin-top: -18%;
+    }
+    div{
+        
+    }
+    div img{
+        display: block;
+    position: inherit;
+         
+        
+    }
+    #img2{
+       display: block;
+    background-image: url(image/sachin-tendulkar-66h.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: -webkit-fill-available;
+    width: 981px;
+    clear: left;
+    margin-top: -30px;
+    }
+    header img{
+       margin-left: -30px; 
+    }
+    div video{
+        
+    }
+    div{
+        
+    }
+   /* table{
+    align-content: center;
+    margin: auto;
+    border-spacing: 0;
+    }
+    th,tr,td{
+        display: block;
+    }*/
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr { display: block; }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    h2{
+        text-align: center;
+            padding-left: 388px;
+    }
+    
+    
+    
+    
+}
+@media only screen and (max-width: 768px){
+    
+    
+    body{
+        margin: 0;
+        
+    }
+    h3{
+        margin-top: 3px;
+    }
+    h2{
+        
+      margin-left: -276px;
+        margin-top: 122px;
+    }
+    #wrapper{
+        width: 0;
+      margin-left: 0;
+        margin-right: 0;
+        margin: 0;
+    }
+    #wrapper2{
+        width: 0%
+        margin: 0;
+         margin-left: 0;
+        margin-right: 0;
+    }
+    aside{
+        margin: 0;
+       display: block;
+    clear: left;
+    font-size: 1em;
+    margin-top: 320px;
+    margin-left: 0px;
+    width: 470px;
+    }
+    aside img{
+        height: 10%;
+        display: block;
+    }
+    nav{
+        display: block;
+    }
+    nav a{
+        display: block;
+        border: 1px solid;
+        border-left: none;
+        border-right: none;
+    }
+    main{
+    
+        margin-top: -18%;
+    }
+    div{
+        
+    }
+    div img{
+        display: block;
+    position: inherit;
+   
+        
+    }
+    #img2{
+       display: block;
+    background-image: url(image/sachin-tendulkar-66h.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: -webkit-fill-available;
+    width:513px;
+    clear: left;
+    margin-top: -30px;
+    }
+    header img{
+       margin-left: -63px; 
+    }
+    div video{
+        
+    }
+    div{
+        
+    }
+   /* table{
+    align-content: center;
+    margin: auto;
+    border-spacing: 0;
+    }
+    th,tr,td{
+        display: block;
+    }*/
+    /* Force table to not be like tables anymore */
+  /*  table, thead, tbody, th, td, tr { display: block; }
+    /* Hide table headers (but not display: none;, for accessibility) 
+    thead tr { position: absolute;top: -9999px;left: -9999px;}*/
+     table{
+                width:100%;
+            }
+            
+            td,th{
+                display: block;
+            }
+            
+            thead{
+                position: absolute;
+                left:-999px;
+                top:-999px;
+            }
+            
+            td:nth-of-type(1):before{
+                content: "Photo";
+            }
+            
+            td:nth-of-type(2):before{
+                content: "Name";
+            }
+            
+            td:nth-of-type(3):before{
+                content: "Age";
+            }
+    
+     td:nth-of-type(4):before{
+                content: "Matches";
+            }
+            
+            td:nth-of-type(5):before{
+                content: "Jersey No";
+            }
+            
+            td:nth-of-type(6):before{
+                content: "Bat/Bow";
+            }
+            
+            td:before{
+                float:left;
+                display: inline-block;
+                width: 30%;
+                font-weight: bold;
+            }
+            
+    
+        }
+    
+   
+    
+    
+    
+}
+
+
+
+
